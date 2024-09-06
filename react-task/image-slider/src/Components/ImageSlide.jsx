@@ -31,11 +31,11 @@ const ImageSlider = () => {
     ]
   }
   return (
-    <div className='w-[80vw] h-[65vh] px-5' >
-      <Slider {...settings} >
+    <div className='w-[80vw] h-fit px-5' >
+      <Slider className='w-[75vw] mx-auto' {...settings} >
         {data.map((Element , id)=>{
             return(
-                <div key={id} className='border w-[400px] h-[500px] relative' >
+                <div key={id} className='max-w-[350px] h-[500px] relative border border-white mx-auto' >
                 <img className='w-full h-full object-cover rounded-2xl' src={Element.picture} alt="" />
                 <div id='card-data' className='w-full h-full absolute bottom-0 rounded-2xl' >
                     <div className='absolute bottom-0 px-2 py-3 w-full' >
