@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#card-data{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.668) 5%, rgba(0,0,0,0.0033263305322128733) 100%);
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #000000;
+}
